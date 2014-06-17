@@ -8,7 +8,7 @@
 
 
 /*$stations = json_decode(file_get_contents('media/stations/21_stations.json'));
-$coords   = json_decode(file_get_contents('media/coords/21_coords.json'));
+
 function lookup($str) {
 	$str_filter = array(
 		' ' => '+',
@@ -16,7 +16,7 @@ function lookup($str) {
 	);
 	$str        = strtr(urlencode(trim($str)), $str_filter);
 
-	$target_url = "http://maps.googleapis.com/maps/api/geocode/json?address=" . $str . "+London+ON&sensor=false";
+	$target_url = "http://maps.googleapis.com/maps/api/geocode/json?address=" . $str . "+London+ON+CA&sensor=false";
 
 	$result = json_decode(file_get_contents($target_url));
 	if ('OK' === $result->status && $result->results > 0) {
