@@ -1,88 +1,169 @@
-ID,Stop Name,On Board Announcement
-,,
-229,Beckworth & Lancaster EB,Beckworth at Lancaster  
-230,Beckworth & Langton EB,Beckworth at Langton  
-231,Beckworth & Sorrel EB,Beckworth at Sorrel  
-232,Beckworth & Toukay Cr EB,Beckworth at Toukay Crescent 
-233,Beckworth & Tudor EB,Beckworth at Tudor  
-344,Cheapside & Adelaide EB,Cheapside at Adelaide  
-345,Cheapside & Adelaide FS WB,Cheapside West of Adelaide 
-346,Cheapside & Adelaide NS WB,Cheapside East of Adelaide 
-347,Cheapside & Appel EB,Cheapside at Appel  
-348,Cheapside & Barker EB,Cheapside at Barker  
-349,Cheapside & Boullee EB,Cheapside at Boullee  
-350,Cheapside & Boullee WB,Cheapside at Boullee  
-351,Cheapside & Brampton EB,Cheapside at Brampton  
-2209,Cheapside & Brampton WB,Cheapside at Brampton  
-352,Cheapside & Colborne EB,Cheapside at Colborne  
-353,Cheapside & Colborne WB,Cheapside at Colborne  
-354,Cheapside & Gammage EB,Cheapside at Gammage  
-355,Cheapside & Gammage WB,Cheapside at Gammage  
-356,Cheapside & Lyman WB,Cheapside at Lyman  
-357,Cheapside & Maitland EB,Cheapside at Maitland  
-358,Cheapside & Maitland WB,Cheapside at Maitland  
-359,Cheapside & McNay EB,Cheapside at McNay  
-360,Cheapside & Richmond WB,Cheapside at Richmond  
-361,Cheapside & Sterling St. WB,Cheapside at Sterling  
-362,Cheapside & Taylor EB,Cheapside at Taylor  
-363,Cheapside & Taylor WB,Cheapside at Taylor  
-364,Cheapside & Waterloo EB,Cheapside at Waterloo  
-365,Cheapside & Waterloo WB,Cheapside at Waterloo  
-366,Cheapside & Wellington EB,Cheapside at Wellington  
-367,Cheapside & Wellington WB,Cheapside at Wellington  
-368,Cheapside & William EB,Cheapside at William  
-369,Cheapside & William WB,Cheapside at William  
-391,Chippewa & Appache Rd E Leg WB,Chippewa Elementary School  
-392,Chippewa & Appache Rd W Leg WB,Chippewa at Appache
-393,Chippewa & Trevor WB,Chippewa at Trevor  
-1009,Huron & Highbury Ave FS EB,Huron East of Highbury 
-2241,Huron & Highbury Ave NS EB,Huron West of Highbury 
-1010,Huron & Highbury FS WB,Huron West of Highbury 
-1008,Huron & Highbury NS WB,Huron East of Highbury 
-1015,Huron & Sandford St EB,Huron at Sandford  
-1016,Huron & Sandford St WB,Huron at Sandford  
-1017,Huron & Vesta EB,Huron at Vesta  
-1018,Huron & Vesta WB,Huron at Vesta  
-1021,Huron & Webster St FS Stop 1,Huron at Webster Stop 1
-1023,Huron & Webster St FS Stop 2,Huron at Webster Stop 2
-1022,Huron & Webster St. WB ,Huron at Webster  
-1155,McNay & Cheapside St SB,McNay at Cheapside  
-1156,McNay & Huron St NB,McNay at Huron  
-1157,McNay & Huron St SB,McNay at Huron  
-1160,McNay & Rock St NB,McNay at Rock  
-1161,McNay & Rock St SB,McNay at Rock  
-1162,McNay & Victoria Dr FS NB,McNay North of Victoria
-1164,McNay & Victoria Dr NS NB,McNay South of Victoria 
-1163,McNay & Victoria SB,McNay at Victoria  
-1244,Oakville & Chippewa Dr NB,Oakville at Chippewa Drive 
-1245,Oakville & Huron St NB,Oakville at Huron  
-1246,Oakville & Tilipe Rd NB,Oakville at Tilipe  
-1457,Richmond & Albert St NB,Richmond at Albert  
-1461,Richmond & Carling St NS SB,Richmond North of Carling 
-1463,Richmond & Central Ave SB,Richmond at Central  
-1464,Richmond & Cheapside St NB,Richmond at Cheapside  
-1466,Richmond & Dufferin Ave NB,Richmond at Dufferin  
-1467,Richmond & Dufferin Ave SB,Richmond at Dufferin  
-1470,Richmond & Dundas St NS NB,Richmond South of Dundas 
-1474,Richmond & Fullarton St SB,Richmond at Fullarton  
-1476,Richmond & Grosvenor St NB,Richmond at Grosvenor  
-1477,Richmond & Grosvenor St SB,Richmond at Grosvenor  
-1483,Richmond & Hyman Ave NB,Richmond at Hyman  
-1484,Richmond & Hyman St SB,Richmond at Hyman  
-1488,Richmond & Kent St NB,Richmond at Kent  
-1489,Richmond & Kent St SB,Richmond at Kent  
-1493,Richmond & Mill St SB,Richmond at Mill  
-1494,Richmond & Oxford St? NB,Richmond at Oxford  
-1495,Richmond & Oxford St SB,Richmond at Oxford  
-1496,Richmond & Pall Mall St NB,Richmond at Pall Mall 
-1499,Richmond & Piccadilly? NB,Richmond at Piccadilly  
-1500,Richmond & Piccadilly? SB,Richmond at Piccadilly  
-1501,Richmond & Queens? Ave NB,Richmond at Queens  
-1486,Richmond & St. James St NB,Richmond at St James 
-1487,Richmond & St. James St SB,Richmond at St James 
-1620,Sandford & Bentley Dr SB,Sandford at Bentley
-2273,Sandford & Huron FS SB,Sandford South of Huron
-1624,Sandford & Huron St NS SB,Sandford North of Huron
-1663,Sorrel & Huron NB,Sorrel at Huron  
-1664,Sorrel & Kaladar NB,Sorrel at Kaladar  
-1665,Sorrel & Perth Ave NB,Sorrel at Perth Ave 
+ID,Name,Announcement
+167,"Argyle Mall E Side NB","Argyle Mall"
+166,"Argyle Mall W side SB","Argyle Mall"
+275,"Boler & Byron Baseline NB","Boler at Byron Baseline"
+277,"Boler & Commissioners FS NB","Boler North of Commissioners"
+276,"Boler & Commissioners NS NB","Boler South of Commissioners"
+278,"Boler & Glenrose NB","Boler at Glenrose"
+314,"Byron Baseline & Belvedere EB","Byron Baseline at Belvedere"
+315,"Byron Baseline & Brock St. EB","Byron Baseline at Brock"
+316,"Byron Baseline & Byron Blvd EB","Byron Baseline at Byron"
+318,"Byron Baseline & Griffith EB","Byron Baseline at Griffith"
+394,"Clarke & Avalon NB","Clarke at Avalon"
+2329,"Clarke & Avalon SB","Clarke at Avalon"
+395,"Clarke & Charterhouse Cr - N Leg NB","Clarke at Charterhouse"
+397,"Clarke & Charterhouse Cr - S Leg NB","Marconi Club"
+396,"Clarke & Charterhouse SB","Clarke at Charterhouse"
+398,"Clarke & Churchill Ave NB","Clarke at Churchill"
+399,"Clarke & Churchill Ave SB","Clarke at Churchill"
+400,"Clarke & Culver SB","Clarke at Culver"
+402,"Clarke & Dundas NB","Clarke at Dundas"
+403,"Clarke & Dundas SB","Clarke at Dundas"
+404,"Clarke & Firestone Blvd NB","Clarke at Firestone"
+405,"Clarke & Firestone SB","Clarke at Firestone"
+406,"Clarke & Gore NB","Clarke at Gore"
+407,"Clarke & Herbert SB","Clarke at Herbert"
+409,"Clarke & Pacific NB","Clarke at Pacific"
+410,"Clarke & Parkhurst NB","Clarke at Parkhurst"
+411,"Clarke & Parkhurst SB","Clarke at Parkhurst"
+414,"Clarke & Royal Cr - N Leg NB","Sunrise Baptist Church"
+412,"Clarke & Royal Cr - S Leg NB","Clarke at Royal"
+413,"Clarke & Royal Cr N Leg SB","Clark at Royal"
+416,"Clarke & Sudbury SB","Clarke at Sudbury"
+419,"Clarke & Trafalgar FS SB","Clarke South of Trafalger"
+418,"Clarke & Trafalgar NS SB","Clarke North of Trafalger"
+417,"Clarke & Tragalgar NB","Clake North of Trafalgar"
+420,"Clarke & Wavell NB","Clarke Road Secondary School"
+421,"Clarke & Wavell SB","Clarke at Wavell"
+422,"Clarke & Whitney NS NB","Clarke South of Whitney"
+459,"Commissioners & Halls Mills Rd FS WB","Commissioners West of Halls Mills"
+482,"Commissioners & Stephen WB","Commissioners at Stephan"
+492,"Culver & Clarke Rd EB","Culver at Clarke"
+494,"Culver & Clarke Rd FS 1 WB","Culver at Clarke"
+493,"Culver & Clarke Rd FS 2 WB","1826 Culver"
+2313,"Culver & Culver Court WB","Culver at Culver Court"
+495,"Culver & Culver Cr EB","Culver at Culver Crescent"
+497,"Culver & Culver Cres. WB","Culver at Culver Crescent"
+496,"Culver & Culver Place 1 EB","Culver East of Culver Place"
+498,"Culver & Culver Place 2 EB","Culver North of Culver Place"
+499,"Culver & Third St EB","Culver at Third"
+500,"Culver & Third St WB","Culver at Third"
+2331,"Fanshawe College Stop 1","Fanshawe College Stop #1"
+2226,"Fanshawe College Stop 5","Fanshawe College Stop #5"
+729,"Firestone & Clarke Rd WB","Firestone at Clarke"
+731,"Firestone & Firestone Blvd South WB","Firestone at Firestone Boulevard"
+732,"Firestone & Gore SB","Firestone at Gore"
+784,"Gore & Clarke Rd EB","Gore at Clarke"
+811,"Griffith & Commissioners Rd W SB","Griffith at Commissioners"
+816,"Griffith & Helena Montague Ave SB","Griffith at Helena Montague"
+817,"Griffith & Norman Ave SB","Griffith at Norman"
+843,"Halls Mills & Commissioners SB","Halls Mills at Commissioners"
+844,"Halls Mills & Halls Mills Pl SB","Halls Mills at Halls Mills"
+1026,"Hyde Park & Fiddlers Green Rd NB","Hyde Park at Fiddlers Green"
+1029,"Hyde Park & Oxford St NB NS","Hyde Park south of Oxford"
+1031,"Hyde Park & Riverside Drive NB","Hyde Park at Riverside"
+1032,"Hyde Park & Valetta St. NB","Hyde Park at Valetta"
+1260,"Oxford & Adelaide St EB","Oxford at Adelaide"
+1261,"Oxford & Adelaide St WB","Oxford at Adelaide"
+1263,"Oxford & Beaverbrook Ave EB","Oxford at Beaverbrook"
+1264,"Oxford & Beaverbrook Ave FS WB","Oxford West of Beaverbrook"
+1265,"Oxford & Beaverbrook Ave NS WB","Oxford East of Beaverbrook"
+1266,"Oxford & Britannia Ave EB","Oxford at Britannia"
+1267,"Oxford & Britannia Ave WB","Oxford at Britannia"
+1268,"Oxford & Capulet Lane EB","Oxford at Capulet Lane"
+1269,"Oxford & Capulet Lane WB","Oxford at Capulet Lane"
+1270,"Oxford & Cherryhill Blvd NS 1 EB","Chelsey Park Retirement Home"
+1272,"Oxford & Cherryhill Blvd NS 2 EB","Oxford at Cherryhill Boulevard"
+1271,"Oxford & Cherryhill Blvd WB","Oxford at Cherryhill Blvd"
+1278,"Oxford & Clemens St EB","Oxford at Clemens"
+1279,"Oxford & Clemens St WB","Oxford at Clemens"
+1280,"Oxford & Colborne St EB","Oxford at Colborne"
+1281,"Oxford & Colborne St WB","Oxford at Colborne"
+1285,"Oxford & Elizabeth St EB","Oxford at Elizabeth"
+1286,"Oxford & Elizabeth St WB","Oxford at Elizabeth"
+1287,"Oxford & Elliott St EB","Oxford at Elliot"
+1288,"Oxford & Elliott St WB","Oxford at Elliot"
+1289,"Oxford & Empire St EB","Oxford at Empire"
+1344,"Oxford & Fanshawe College Blvd St WB","Oxford at Fanshawe College Blvd"
+1290,"Oxford & Fernely Ave. WB","Oxford at Fernely"
+1291,"Oxford & Fiddlers Green Rd EB","Oxford at Fiddlers Green"
+1292,"Oxford & Fiddlers Green Rd WB","Oxford at Fiddlers Green"
+1293,"Oxford & Fleet St EB","Oxford at Fleet"
+1294,"Oxford & Freele St EB","Oxford at Freele"
+1295,"Oxford & Freele St WB","Oxford at Freele"
+1296,"Oxford & Gammage St EB","Oxford at Gammage"
+1297,"Oxford & Gammage St WB","Oxford at Gammage"
+1303,"Oxford & Grace St WB","Oxford at Grace"
+1305,"Oxford & Guildwood Blvd WB","Oxford at Guildwood Blvd"
+1304,"Oxford & Guildwood Gate EB","Oxford at Guildwood Gate"
+1306,"Oxford & Guildwood Gate WB","Oxford at Guildwood Gate"
+1309,"Oxford & Highbury Ave FS EB","Oxford at Highbury"
+1308,"Oxford & Highbury Ave FS WB","Oxford at Highbury"
+1307,"Oxford & Highbury Ave NS EB","Oxbury Mall"
+1310,"Oxford & Highbury Ave NS WB","John Paul Secondary School"
+1311,"Oxford & Hyde Park Rd EB","Oxford at Hyde Park"
+1312,"Oxford & Hyde Park Rd WB","Oxford at Hyde Park"
+1316,"Oxford & Juniper St EB","Oxford at Juniper"
+1317,"Oxford & Laruel St EB","Oxford at Laurel"
+1318,"Oxford & Laurel St. WB","Oxford at Laurel"
+1319,"Oxford & Lyman St WB","Oxford at Lyman"
+1320,"Oxford & Maitland EB","Oxford at Maitland"
+1321,"Oxford & Maitland St WB","Oxford at Maitland"
+1322,"Oxford & Mornington Ave EB","Oxford at Mornington"
+1323,"Oxford & Oakside St WB","Oxford at Oakside"
+1324,"Oxford & Old Hunt Rd EB","Oxford at Old Hunt"
+1325,"Oxford & Old Hunt Rd WB","Oxford at Old Hunt"
+1326,"Oxford & Platts Lane WB","Oxford at Platts Lane"
+1327,"Oxford & Proudfoot Lane EB","Oxford at Proudfoot Lane"
+1328,"Oxford & Proudfoot Lane WB","Oxford at Proudfoot Lane"
+1329,"Oxford & Quebec St EB","Oxford at Quebec"
+1330,"Oxford & Quebec St WB","Oxford at Quebec"
+1331,"Oxford & Rathowen St EB","Oxford at Rathowen"
+1332,"Oxford & Rathowen St WB","Oxford at Rathowen"
+1333,"Oxford & Richmond St EB","Oxford at Richmond"
+1334,"Oxford & Richmond St WB","Oxford at Richmond"
+1336,"Oxford & Roehampton Ave E Leg WB","Oxford at Roehampton"
+1337,"Oxford & Royal York Rd FS EB","Oxford at Royal York"
+1340,"Oxford & Royal York Rd FS WB","Marie Curie School"
+1339,"Oxford & Royal York Rd NS EB","St Aidens Church"
+1338,"Oxford & Royal York Rd NS WB","Oxford at Royal York"
+1341,"Oxford & Sanatorium Rd EB","Oxford at Sanatorium"
+1342,"Oxford & Sanatorium Rd WB","Oxford at Sanatorium"
+1343,"Oxford & Second St EB","Oxford at Second"
+1345,"Oxford & Spittal St EB","Oxford at Spittal"
+1262,"Oxford & St. Andrews St EB","Oxford at St Andrews"
+1298,"Oxford & St. George St EB","Oxford at St George"
+1299,"Oxford & St. George St WB","Oxford at St. George"
+1346,"Oxford & Sterling St EB","Oxford at Sterling"
+1347,"Oxford & Sterling St WB","Oxford at Sterling"
+1348,"Oxford & Strand St EB","Oxford at Strand"
+1349,"Oxford & Stuart St WB","Oxford at Stuart"
+1350,"Oxford & Talbot St EB","Oxford at Talbot"
+1351,"Oxford & Talbot St WB","Oxford at Talbot"
+1352,"Oxford & Third St EB","Oxford at Third"
+1353,"Oxford & Third St WB","Oxford at Third"
+1354,"Oxford & Waterloo St EB","Oxford at Waterloo"
+1355,"Oxford & Waterloo St WB","Oxford at Waterloo"
+1356,"Oxford & Wellington St EB","Oxford at Wellington"
+1357,"Oxford & Wellington St WB","Oxford at Wellington"
+1358,"Oxford & Wharncliffe Rd EB","Oxford at Wharncliffe"
+1359,"Oxford & Wharncliffe Rd WB","Oxford at Wharncliffe"
+1360,"Oxford & William St EB","Oxford at William"
+1361,"Oxford & William St WB","Oxford at William"
+1362,"Oxford & Wistow St WB","Oxford at Wistow"
+1363,"Oxford & Wonderland Rd EB","Oxford at Wonderland"
+1364,"Oxford & Wonderland Rd WB","Oxford at Wonderland"
+1581,"Riverside & Hartson Rd E Leg EB","Riverside at Hartson East"
+1583,"Riverside & Hartson Rd W Leg EB","Riverside at Hartson West"
+1592,"Riverside & Sanatorium Rd EB","Riverside at Sanatorium"
+1562,"Riverside & St. Anthony Rd EB","Riverside at St Anthony"
+1629,"Sanatorium & Plymouth Ave NB","Sanitorium at Plymouth"
+1630,"Sanatorium & Plymouth Ave SB","Sanitorium at Plymouth"
+1631,"Sanatorium & Riverside Dr. NB","Sanitorium at Riverside"
+1632,"Sanatorium & Riverside Dr. SB","Sanitorium at Riverside"
+1633,"Sanatorium & Sutton Place NB","Sanitorium at Sutton Place"
+1634,"Sanatorium & Sutton Place SB","St Thomas Aquanis Secondary School"
+1770,"Third & Culver  SB","Third at Culver"
+1769,"Third & Culver Dr NB","Third at Culver"
+1771,"Third & Oxford NB","Third at Oxford"
+1772,"Third & Oxford SB","Third at Oxford"

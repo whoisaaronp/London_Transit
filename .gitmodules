@@ -1,0 +1,3 @@
+[submodule "scripts/gmapLib"]
+	path = scripts/gmapLib
+	url = git://github.com/printercu/google-maps-utility-library-v3-read-only.git
