@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  react:
+    environment:
+      VIRTUAL_HOST: ltc.thepan.cn
+      LETSENCRYPT_HOST: ltc.thepan.cn
+      LETSENCRYPT_EMAIL: panbanglanfeng@gmail.com
+
+networks:
+  default:
+    external:
+      name: webproxy
