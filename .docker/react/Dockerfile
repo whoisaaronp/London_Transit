@@ -11,7 +11,7 @@ ENV PATH /app/node_modules/.bin:$PATH
 # install app dependencies
 COPY package.json /app
 COPY yarn.lock /app
-RUN yarn
+RUN cd /app && yarn
 
 # add app
 COPY . /app
