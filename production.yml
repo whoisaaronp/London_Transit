@@ -1,8 +1,14 @@
 version: "3.3"
 
 services:
-  react:
+  web:
+    image: nginx
+    ports:
+      - 8080:80
+    volumes:
+      - ./build:/usr/share/nginx/html
     environment:
+      VIRTUAL_PORT: 8080
       VIRTUAL_HOST: ltc.thepan.cn
       LETSENCRYPT_HOST: ltc.thepan.cn
       LETSENCRYPT_EMAIL: panbanglanfeng@gmail.com
