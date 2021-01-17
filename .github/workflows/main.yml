@@ -27,7 +27,6 @@ jobs:
         with:
           envkey_REACT_APP_MAPBOX_API: ${{ secrets.MAPBOX_API }}
           directory: ./build
-          file_name: .env
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
