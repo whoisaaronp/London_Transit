@@ -1,0 +1,24 @@
+name: a workflow for London Transit project
+on: 
+  push:
+    branches:
+      - main
+      # For testing only, remove when done
+      - 'github-actions'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node version ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install Packages
+        run: npm install
+      - name: Build the app
+        run: npm run build
