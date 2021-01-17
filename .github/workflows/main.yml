@@ -20,15 +20,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages
         run: npm install
+      - name: set environment variables
+        uses: allenevans/set-env@v2.0.0
+        with:
+          REACT_APP_MAPBOX_API: ${{ secrets.MAPBOX_API }}
+          GENERATE_SOURCEMAP: false
       - name: Build the app
         run: npm run build
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_REACT_APP_MAPBOX_API: ${{ secrets.MAPBOX_API }}
-          directory: ./build
-      - name: debug build folder
-        run: ls -alt ./build && cat ./build/.env
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
