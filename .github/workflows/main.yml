@@ -3,8 +3,8 @@ on:
   push:
     branches:
     # for testing only remove when done
-      - "dev.ap.cidcd"
-      - main
+        - "dev.ap.cidcd"
+        - main
 
 jobs: 
   deploy:
